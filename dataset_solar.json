@@ -1,0 +1,16 @@
+{
+    "Temperature": 62,
+    "Pressure": 30.43,
+    "Humidity": 50,
+    "WindDirection(Degrees)": 63.35,
+    "Speed": 10.12,
+    "Month": 9,
+    "Day": 29,
+    "Hour": 13,
+    "Minute": 15,
+    "Second": 25,
+    "risehour": 6,
+    "riseminute": 13,
+    "sethour": 18,
+    "setminute": 13
+}
