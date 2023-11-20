@@ -1,7 +1,7 @@
 
 import joblib
 
-# Carrega o modelo treinado a partir do arquivo './model.joblib'
+# Carrega o modelo treinado a partir do arquivo './Trabalho_Python_Final/model/model.joblib'
 model = joblib.load('./Trabalho_Python_Final/model/model.joblib')
 
 # Faz a previsão usando os dados de entrada carregados
