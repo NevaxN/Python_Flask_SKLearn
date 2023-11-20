@@ -12,6 +12,7 @@ Após o teste o modelo foi adicionado ao arquivo "app.py" que utiliza o framewor
 
 Obs 1: o arquivo "model.joblib" está compactado em um arquivo pois era grande demais e não era possível adicionar ao repositório, só precisará descompactalo e rodar a rota  "./Trabalho_Python_Final/model/model.joblib" até o arquivo ja está adicionada. Caso tirar o arquivo
 joblib da pasta model deverá mudar a rota nos arquivos "app.py" e "teste_modelo.py".
+
 Obs 2: É possível que ocorra um erro de "timeout" quando enviar os valores do formulário para conseguir a previsão, o motivo é o tempo que o modelo esta levando para fazer a previsão, nesse caso recomendo que aumente o tempo de timeout no arquivo "app.py", a variáve
 timeout estará na linha: 
 "response = requests.post("http://127.0.0.1:5000/solar", json=data, headers=headers, timeout=10)".
