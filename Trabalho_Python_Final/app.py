@@ -100,7 +100,7 @@ def get_solarRadiation_prediction():
     print(f"Valor de X: {X}")
 
     # Carrega o modelo treinado
-    model = joblib.load('./model.joblib')
+    model = joblib.load('./Trabalho_Python_Final/model/model.joblib')
 
      # Faz a previsão usando o modelo
     y_pred = model.predict([X])
